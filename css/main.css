@@ -8,7 +8,11 @@
 
 /* Main CSS  */
 
-.fullScreenImage{
-  max-height: 100vh;
+.fullScreenImage-container {
+  height: 100vh;
+}
+
+.fullScreenImage {
+  height: 100%;
   width: 100%;
 }
