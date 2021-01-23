@@ -26,13 +26,6 @@ body {
 
 /* Nav CSS */
 
-#logo {
-  width: 75px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 #nav-menu {
   width: 100%;
   height: 80px;
@@ -42,6 +35,13 @@ body {
   bottom: 0;
   z-index: 99;
   line-height: 80px;
+}
+
+#logo {
+  width: 75px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
 }
 
 #nav-menu ul {
@@ -70,12 +70,10 @@ body {
   background-color: #F4720F;
 }
 
-
-
 /* Main CSS  */
 
 .modernBlock {
-  height: calc(100vh - 110px); /* 100vh-margintop-nav height */
+  height: calc(100vh - 100px); /* 100vh - margintop - nav height */
   background-size: cover;
   position: relative;
   border-radius: 50px;
@@ -140,4 +138,18 @@ body {
 
 .isole-tremiti {
   background-image: url("../img/isole-tremiti.jpg");
+}
+
+/* Footer CSS */
+
+#jarvis {
+  height: 60px;
+  background-color: #2784be;
+}
+
+.footerText {
+  color: #FFF;
+  text-align: right;
+  font-weght: bold;
+  line-height: 60px;
 }
