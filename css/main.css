@@ -25,6 +25,16 @@ body {
   position: relative;
 }
 
+.modernBlock::before {
+  content: "";
+  background-color: rgba(0,0,0,.4);
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+}
+
 .cityName {
   font-size: calc(35px + 2vw);
   text-transform: uppercase;
