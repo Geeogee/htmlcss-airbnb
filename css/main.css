@@ -8,11 +8,22 @@
 
 /* Main CSS  */
 
-.fullScreenImage-container {
+.modernBlock {
   height: 100vh;
+  background-size: cover;
 }
 
-.fullScreenImage {
-  height: 100%;
-  width: 100%;
+
+/* Images for modern blocks */
+
+.mattinata {
+  background-image: url("../img/mattinata.jpg");
+}
+
+.vieste {
+  background-image: url("../img/vieste.jpg");
+}
+
+.isole-tremiti {
+  background-image: url("../img/isole-tremiti.jpg");
 }
