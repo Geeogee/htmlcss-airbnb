@@ -3,7 +3,7 @@
   <head>
     <meta charset="utf-8">
     <title>Modern Blocks</title>
-    <link rel="icon" href="https://www.symbola.net/wp-content/uploads/2019/03/Parco-Nazionale-del-Gargano-XL.png">
+    <link rel="icon" href="img/logo.png">
     <link rel="stylesheet" href="css/main.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
@@ -12,8 +12,27 @@
 
     <!-- Logo and title of the page -->
     <header>
-      <nav class="nav-menu">
-        
+
+      <nav id="nav-menu">
+
+        <a href="#">
+          <img id="logo" src="img/logo.png">
+        </a>
+
+        <ul>
+          <li>
+            <a href="#anchorMattinata">Mattinata</a>
+          </li>
+
+          <li>
+            <a href="#anchorVieste">Vieste</a>
+          </li>
+
+          <li>
+            <a href="#anchorTremiti">Isole Tremiti</a>
+          </li>
+        </ul>
+
       </nav>
 
     </header>
@@ -22,22 +41,44 @@
     <!-- Modern blocks at 100vh -->
     <main>
 
+      <!-- Block 1 -->
       <section class="modernBlock mattinata">
+
+        <div class="anchor">
+          <a href="#" name="anchorMattinata">Prova</a>
+        </div>
+
         <div class="frame"></div>
         <div class="modernBlock-overlay"></div>
-          <a href="#" class="cityName cen-vertAlign">Mattinata</a>
+        <a href="#" class="cityName cen-vertAlign">Mattinata</a>
+
+
       </section>
 
+      <!-- Block 2 -->
       <section class="modernBlock vieste">
+
+        <div class="anchor">
+          <a href="#" name="anchorVieste">Prova</a>
+        </div>
+
         <div class="frame"></div>
         <div class="modernBlock-overlay"></div>
         <a href="#" class="cityName cen-vertAlign">Vieste</a>
+
       </section>
 
+      <!-- Block 3 -->
       <section class="modernBlock isole-tremiti">
+
+        <div class="anchor">
+          <a href="#" name="anchorTremiti">Prova</a>
+        </div>
+
         <div class="frame"></div>
         <div class="modernBlock-overlay"></div>
         <a href="#" class="cityName cen-vertAlign">Isole Tremiti</a>
+
       </section>
 
     </main>
