@@ -24,24 +24,27 @@ body {
   opacity: 0;
 }
 
-/* Nav CSS */
-
-#nav-menu {
-  width: 100%;
-  height: 80px;
+#nav-menu, #jarvis {
   background-color: #2784be;
-  position: fixed;
-  top: 0;
-  bottom: 0;
-  z-index: 99;
+  height: 80px;
+  width: 100%;
   line-height: 80px;
 }
+
+/* Nav CSS */
 
 #logo {
   width: 75px;
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
+}
+
+#nav-menu {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  z-index: 99;
 }
 
 #nav-menu ul {
@@ -52,17 +55,18 @@ body {
 }
 
 #nav-menu li {
-  height: 100%;
   display: inline-block;
+  height: 100%;
   width: calc(100% / 3);
   text-align: center;
+  padding: 0 10px 0 10px;
 }
 
 #nav-menu a {
   display: block;
   text-decoration: none;
   font-weight: bold;
-  font-size: 18px;
+  font-size: calc(6px + 1vw);
   color: #FFF;
 }
 
@@ -85,26 +89,15 @@ body {
   margin-top: 90px;
 }
 
-.frame {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  background-color: transparent;
-  border-radius: 50px;
-  border: 20px solid #FFF;
-  z-index: 9;
-}
-
 .modernBlock-overlay {
   position: absolute;
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  background-color: rgba(0,0,0,.4);
   border-radius: 50px;
+  border: 20px solid #FFF;
+  background-color: rgba(0,0,0,.4);
   z-index: 8;
 }
 
@@ -117,6 +110,9 @@ body {
   text-decoration: none;
   z-index: 10;
 }
+
+
+/* Hover classes */
 
 .modernBlock:hover .modernBlock-overlay {
   background-color: rgba(0,0,0,.2);
@@ -142,15 +138,9 @@ body {
 
 /* Footer CSS */
 
-#jarvis {
-  height: 60px;
-  background-color: #2784be;
-}
-
 .footerText {
   color: #FFF;
   text-align: right;
-  font-weght: bold;
-  line-height: 60px;
   padding-right: 10px;
+  font-size: 12px;
 }
