@@ -33,13 +33,6 @@ body {
 
 /* Nav CSS */
 
-#logo {
-  width: 75px;
-  position: absolute;
-  top: 50%;
-  transform: translateY(-50%);
-}
-
 #nav-menu {
   position: fixed;
   top: 0;
@@ -47,9 +40,17 @@ body {
   z-index: 99;
 }
 
+#logo {
+  width: 75px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
 #nav-menu ul {
   height: 100%;
   width: 50%;
+  min-width: 400px;
   margin: 0 auto;
   font-size: 0;
 }
