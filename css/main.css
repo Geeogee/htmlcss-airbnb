@@ -20,7 +20,7 @@ body {
 
 .anchor {
   position: absolute;
-  top: -90px; /* Anchor on the top --> Full view of the block */
+  top: -90px; /* Anchor on the top of the view --> Full view of the block */
   opacity: 0;
 }
 
@@ -91,15 +91,10 @@ body {
 }
 
 .modernBlock-overlay {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
   height: 100%;
   border-radius: 50px;
   border: 20px solid #FFF;
   background-color: rgba(0,0,0,.4);
-  z-index: 8;
 }
 
 .cityName {
@@ -111,7 +106,6 @@ body {
   text-decoration: none;
   z-index: 10;
 }
-
 
 /* Hover classes */
 
